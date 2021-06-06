@@ -12,7 +12,7 @@ function Navigation() {
             <Link className="link" to='/association'>Qui sommes-nous</Link>
           </li>
           <li>
-            <Link className="link" to='/projets'>Projets réalisé</Link>
+            <Link className="link" to='/projets'>Archives</Link>
           </li>
           <li>
             <Link className="link" to='/info'>Info pratiques</Link>

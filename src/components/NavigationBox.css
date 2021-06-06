@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+}
+.navigation-box {
+  width: 100%;
+  font-size: 155%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+}
+.link-box {
+  height: 350px;
+  width: 50%;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  border: solid 2px black;
+}

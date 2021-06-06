@@ -1,0 +1,13 @@
+.navigation{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #B2101D;
+  margin: 0;
+  padding: 25px;
+}
+.link{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}

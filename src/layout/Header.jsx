@@ -3,9 +3,13 @@ import  logo from "../assets/logoEL.jpg"
 function Header() {
   return (
     <div className="header">
-      <img className="logo" src={logo} alt="logo" />
-      <h1>Espace Lecture</h1>
-      <h1>Bibliothèque Associative</h1>
+        <img className="logo" src={logo} alt="logo" />
+      <div className="titre1">
+       <h1>Espace Lecture</h1>
+      </div>
+      <div className="titre2">
+        <h1>Bibliothèque Associative</h1>
+      </div>
     </div>
   )
 }

@@ -4,21 +4,21 @@ function Navigation() {
   return (
     <div>
       <nav>
-        <ul>
+        <ul className="navigation">
           <li>
-            <Link to='/'>Homepage</Link>
+            <Link className="link" to='/'>Homepage</Link>
           </li>
           <li>
-            <Link to='/association'>Qui sommes-nous</Link>
+            <Link className="link" to='/association'>Qui sommes-nous</Link>
           </li>
           <li>
-            <Link to='/projets'>Archives</Link>
+            <Link className="link" to='/projets'>Projets réalisé</Link>
           </li>
           <li>
-            <Link to='/info'>Info pratiques</Link>
+            <Link className="link" to='/info'>Info pratiques</Link>
           </li>
           <li>
-            <Link to='/vieasso'>???</Link>
+            <Link className="link" to='/vieasso'>Vie associative</Link>
           </li>
         </ul>
       </nav>

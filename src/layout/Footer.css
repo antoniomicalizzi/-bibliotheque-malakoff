@@ -1,16 +1,10 @@
-.header{
+.footer{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   border-color: red;
 }
-.logo{
+
+.affiche{
   width: 120px;
-}
-.titre1{
-  width: 50px;
-  text-align: center;
-}
-.titre2{
-  margin-top: 10px;
 }

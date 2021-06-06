@@ -1,5 +1,7 @@
 function Info() {
-  return <div></div>;
+  return <div>
+    <h1>Info</h1>
+  </div>;
 }
 
 export default Info;

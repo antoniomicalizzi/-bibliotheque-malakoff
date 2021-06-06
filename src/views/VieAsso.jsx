@@ -1,5 +1,9 @@
 function VieAsso() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Vie Associative</h1>
+    </div>
+  );
 }
 
 export default VieAsso;

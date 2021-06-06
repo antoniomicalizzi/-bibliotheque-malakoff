@@ -1,5 +1,8 @@
+import Header from "../layout/Header"
 function LandingPage() {
-  return <div></div>;
+  return <div>
+    <Header />
+  </div>;
 }
 
 export default LandingPage;

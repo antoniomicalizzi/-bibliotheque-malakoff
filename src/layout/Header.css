@@ -10,7 +10,9 @@
 .titre1{
   width: 50px;
   text-align: center;
+  font-size: larger;
 }
 .titre2{
   margin-top: 10px;
+  justify-content: flex-end;
 }

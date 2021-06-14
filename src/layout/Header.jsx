@@ -8,7 +8,7 @@ function Header() {
        <h1>Espace Lecture</h1>
       </div>
       <div className="titre2">
-        <h1>Bibliothèque Associative</h1>
+        <h3>Bibliothèque Associative</h3>
       </div>
     </div>
   )

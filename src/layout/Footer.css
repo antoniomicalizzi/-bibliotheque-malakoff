@@ -1,10 +1,10 @@
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-color: red;
   background-color: coral;
 }
-.affiche{
+.affiche {
   width: 120px;
 }

@@ -1,18 +1,21 @@
-.header{
-  display:flex;
+
+.header {
+  width: 100vw;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-color: red;
+  background-color: violet;
 }
-.logo{
+.logo {
   width: 120px;
 }
-.titre1{
+.titre1 {
   width: 50px;
   text-align: center;
   font-size: larger;
 }
-.titre2{
+.titre2 {
   margin-top: 10px;
   justify-content: flex-end;
 }

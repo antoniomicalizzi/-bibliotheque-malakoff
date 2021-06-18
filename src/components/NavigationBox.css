@@ -11,37 +11,33 @@ body {
   margin: 0;
   padding: 25px;
 }
-.navigation-box li{
-height: 120px;
-background-color: rgb(0, 255, 242);
-width: 49%;
-padding-top: 11%;
-border: solid 2px black;
-
+.navigation-box li {
+  height: 120px;
+  background-color: transparent;
+  width: 49%;
+  padding-top: 11%;
+  border: solid 2px white;
 }
 
 .link-box {
-  
   text-decoration: none;
-  color: red;
+  color: white;
   font-weight: bold;
   text-align: center;
-  
 }
 
-.blog{
-    position: relative;
-    height: 30px;
-    background-color: rgb(224, 241, 241);
-    width: 30%;
-    padding: 6%;
-    border: solid 2px black;
-    z-index: 1;
-    top: -370px;
-    left: 30%;
-    font-size: larger;
+.blog {
+  position: relative;
+  height: 30px;
+  background-color: rgb(24, 219, 219);
+  width: 30%;
+  padding: 6%;
+  border: solid 2px black;
+  z-index: 1;
+  top: -370px;
+  left: 30%;
+  font-size: larger;
 }
-
 
 /* .link-box {
   height: 350px;

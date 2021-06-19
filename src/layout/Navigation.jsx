@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Navigation.css';
+import  logo from "../assets/logoEL.jpg"
 function Navigation() {
   return (
     <div>
       <nav>
         <ul className="navigation">
+        <img className="logo" src={logo} alt="logo" />
           <li>
             <Link className="link" to='/'>Homepage</Link>
           </li>

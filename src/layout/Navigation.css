@@ -1,13 +1,17 @@
-.navigation{
+.navigation {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  background-color: #B2101D;
+  background-color: #b2101d;
   margin: 0;
-  padding: 25px;
+  padding: 10px;
 }
-.link{
+.logo {
+  height: 5%;
+  width: 90px;
+}
+.link {
   text-decoration: none;
-  color:white;
+  color: white;
   font-weight: bold;
 }

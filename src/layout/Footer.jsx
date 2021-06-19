@@ -1,4 +1,4 @@
-import affiche from '../assets/affiche.jpg'
+import affiche from '../assets/affiche.png'
 import './Footer.css';
 
 function Footer() {

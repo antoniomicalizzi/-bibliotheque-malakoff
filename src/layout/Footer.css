@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   border-color: red;
-  background-color: coral;
+  background-color:  rgb(228, 218, 228);
 }
 .affiche {
   width: 120px;

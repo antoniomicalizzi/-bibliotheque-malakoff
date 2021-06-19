@@ -1,0 +1,14 @@
+.main-title {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 200px;
+}
+.text {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  margin-bottom: 20px;
+}

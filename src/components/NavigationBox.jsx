@@ -21,7 +21,7 @@ function NavigationBox() {
         </ul>
       </nav>
       <div className='blog'>
-        <Link className="link-box" to='/projets'>Blog</Link>
+        <Link  className="link-box" to='/projets'>Blog</Link>
       </div>
     </div>
   );

@@ -12,8 +12,8 @@ body {
 }
 .edito {
   background-color: white;
-  width: 80%;
   margin: auto;
-  padding: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-bottom: 20px;
 }

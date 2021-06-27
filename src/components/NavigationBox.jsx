@@ -19,10 +19,10 @@ function NavigationBox() {
             <Link className="link-box" to='/projets'>Catalogue</Link>
           </li>
         </ul>
-      </nav>
       <div className='blog'>
         <Link  className="link-box" to='/projets'>Blog</Link>
       </div>
+      </nav>
     </div>
   );
 }

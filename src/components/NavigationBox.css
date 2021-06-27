@@ -29,10 +29,10 @@ body {
 .blog {
   position: relative;
   height: 30px;
-  background-color: rgb(24, 219, 219);
+  background-color: rgb(116, 128, 128);
   width: 30%;
   padding: 6%;
-  border: solid 2px black;
+  border: solid 2px white;
   z-index: 1;
   top: -370px;
   left: 30%;

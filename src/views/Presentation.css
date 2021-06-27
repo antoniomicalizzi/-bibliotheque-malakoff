@@ -1,3 +1,4 @@
+
 .main-title {
   text-decoration: none;
   color: white;
@@ -5,10 +6,17 @@
   text-align: center;
   height: 200px;
 }
-.text {
+
+.container {
   background-color: white;
-  width: 80%;
   margin: auto;
-  padding: 2%;
   margin-bottom: 20px;
+}
+.paragraph{
+  display:flex;
+  flex-direction:row;
+}
+.text p{
+  margin-left:20%;
+  margin-right:20%;
 }

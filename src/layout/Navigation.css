@@ -6,6 +6,9 @@
   margin: 0;
   padding: 10px;
 }
+.navigation li {
+  margin-top: 30px;
+}
 .logo {
   height: 5%;
   width: 90px;

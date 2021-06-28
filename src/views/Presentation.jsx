@@ -1,7 +1,7 @@
 import Footer from '../layout/Footer';
 import Navigation from '../layout/Navigation';
 import './Presentation.css';
-
+import image from '../assets/img-test.png'
 
 function Presentation() {
   return (
@@ -10,8 +10,9 @@ function Presentation() {
       <h1 className="main-title">L'association</h1>
     <div className='container'>
       <div className='paragraph'>
-        <img src='../assets/img-test.png' alt='test' />
-        <h3>Historique</h3>
+        <img className='photo'src={image} alt='test' />
+        <div className='text-paragraph'>
+        <h2>Historique</h2>
           <p>
             Née en 1992 de l'initiative d'un couple d'habitants, puis mise en
             sommeil de 1995 à 1997, la bibliothèque est reprise par une équipe de
@@ -38,11 +39,12 @@ function Presentation() {
             au 3-5 rue d'Autriche, dans l'attente du retour à la Maison des Haubans
             en fin d'année 2023.{' '}
           </p>
+          </div>
       </div>
-      
       <div className='paragraph'>
-      <img src='../assets/img-test.png' alt='test' />
-      <h3>L'équipe</h3>
+      
+      <div className='text-paragraph'>
+      <h2>L'équipe</h2>
         <p>
           L'équipe de la bibliothèque est constituée d'une douzaine de bénévoles
           coordonnés par les deux médiatrices du livre.
@@ -53,10 +55,14 @@ function Presentation() {
           livres...).
         </p>
       </div>
+
+      <img className='photo'src={image} alt='test' />
       
+      </div>
       <div className='paragraph'>
-      <img src='../assets/img-test.png' alt='test' />
-        <h3>Les partenariats</h3>
+      <img className='photo3'src={image} alt='test' />
+        <div className='text-paragraph'>
+          <h2>Les partenariats</h2>
         <p>
           Pour mener à bien ses projets, l'Espace Lecture développe des
           partenariats aussi bien associatifs que institutionnels. L'association
@@ -90,6 +96,7 @@ function Presentation() {
           des projets thématiques (DRAC, CGET, Fondation SNCF, Fondation du Crédit
           Mutuel).
         </p>
+        </div>
       </div>
     </div>
       <Footer />

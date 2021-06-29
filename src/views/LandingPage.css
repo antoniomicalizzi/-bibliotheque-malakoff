@@ -13,7 +13,10 @@ body {
 .edito {
   background-color: white;
   margin: auto;
-  padding-left: 20%;
-  padding-right: 20%;
-  margin-bottom: 20px;
+  padding: 5% 30%;
+  text-align: justify;
+  
+}
+.citation{
+  font-style: italic;
 }

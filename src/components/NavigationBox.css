@@ -2,21 +2,22 @@ body {
   box-sizing: border-box;
 }
 .navigation-box {
-  width: 100%;
+  width: 85%;
   font-size: 155%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
   padding: 25px;
+  margin: auto;
+  
 }
 .navigation-box li {
   height: 120px;
   background-color: transparent;
   width: 49%;
   padding-top: 11%;
-  border: solid 2px white;
+  border: solid 5px white;
 }
 
 .link-box {
@@ -28,14 +29,14 @@ body {
 
 .blog {
   position: relative;
-  height: 30px;
-  background-color: rgb(116, 128, 128);
-  width: 30%;
-  padding: 6%;
-  border: solid 2px white;
+  height: 20px;
+  background-color: rgb(173, 179, 179);
+  width: 15%;
+  padding: 5%;
+  border: solid 5px white;
   z-index: 1;
-  top: -370px;
-  left: 30%;
+  top: -357px;
+  left: 37%;
   font-size: larger;
 }
 

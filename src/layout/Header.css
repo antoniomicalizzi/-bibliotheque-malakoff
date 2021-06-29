@@ -7,18 +7,17 @@
   border-color: red;
   background-color: rgb(228, 218, 228);
 }
-.logo {
-  width: 120px;
+.logo1 {
+  width: 150px;
+  padding: 5px;
 }
 .titre1 {
   width: 50%;
   text-align: center;
   font-size: larger;
-  margin-top: 20px;
-  color:#B2101D;
+  margin: auto;
+  color: #B2101D;
 }
 .titre2 {
-  margin-top: 85px;
-  justify-content: flex-end;
-  color:#B2101D;
+  font-size: medium;
 }

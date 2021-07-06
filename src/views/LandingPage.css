@@ -15,7 +15,7 @@ body {
   margin: auto;
   padding: 5% 30%;
   text-align: justify;
-  color: gray;
+  color: rgb(66, 63, 63);
 }
 .citation{
   font-style: italic;

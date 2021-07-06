@@ -1,3 +1,11 @@
 .question{
   background-color: chocolate;
+  width: 47%;
+  margin: auto;
+  padding: 20px;
+}
+
+.question p{
+  background-color: chocolate;
+  width: 47%;
 }

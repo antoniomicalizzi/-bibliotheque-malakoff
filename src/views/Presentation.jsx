@@ -10,7 +10,7 @@ function Presentation() {
       <h1 className="main-title">L'association</h1>
     <div className='container'>
       <div className='paragraph'>
-        <img className='photo'src={image} alt='test' />
+        <img className='photo1'src={image} alt='test' />
         <div className='text-paragraph'>
         <h2>Historique</h2>
           <p>

@@ -7,21 +7,31 @@ function NavigationBox() {
       <nav>
         <ul className='navigation-box'>
           <li>
-            <Link className="link-box" to='/association'>Qui sommes-nous</Link>
+            <Link className='link-box' to='/association'>
+              Qui sommes-nous
+            </Link>
           </li>
           <li>
-            <Link className="link-box" to='/info'>Info pratiques</Link>
+            <Link className='link-box' to='/info'>
+              Info pratiques
+            </Link>
           </li>
           <li>
-            <Link className="link-box" to='/projets'>Archives</Link>
+            <Link className='link-box' to='/projets'>
+              Archives
+            </Link>
           </li>
           <li>
-            <Link className="link-box" to='/projets'>Catalogue</Link>
+            <Link className='link-box' to='/projets'>
+              Catalogue
+            </Link>
           </li>
         </ul>
-      <div className='blog'>
-        <Link  className="link-box" to='/projets'>Blog</Link>
-      </div>
+        <div className='blog'>
+          <a href='https://espacelecture.fr/' target='_blank' rel='noreferrer'>
+            Blog
+          </a>
+        </div>
       </nav>
     </div>
   );

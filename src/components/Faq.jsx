@@ -22,8 +22,7 @@ const Faq = () => {
       </Collapsible>
       <Collapsible
         className='question'
-        trigger='Combien de documents je peux emprunter ?
-'
+        trigger='Combien de documents je peux emprunter ?'
       >
         <p>
           Avec sa carte, chaque adhérent peut emprunter jusqu'à 5 documents.

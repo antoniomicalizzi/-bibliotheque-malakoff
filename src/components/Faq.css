@@ -1,4 +1,4 @@
-.question{
+ .question{
   background-color: chocolate;
   width: 47%;
   margin: auto;
@@ -7,5 +7,6 @@
 
 .question p{
   background-color: chocolate;
+  box-sizing: content-box;
   width: 47%;
-}
+} 

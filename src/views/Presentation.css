@@ -1,11 +1,13 @@
-
 .main-title {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  height: 200px;
-}
+  width: 200px;
+  border: solid 5px white;
+  padding: 50px;
+  margin: 130px auto;
 
+}
 .container {
   background-color: white;
   margin: auto;
@@ -17,35 +19,34 @@
   text-align: justify;
   color: rgb(66, 63, 63);
 }
-.paragraph{
-  display:flex;
-  flex-direction:row;
- 
+.paragraph {
+  display: flex;
+  flex-direction: row;
 }
-.text p{
-  margin-left:20%;
-  margin-right:20%;
+.text p {
+  margin-left: 20%;
+  margin-right: 20%;
 }
-.photo{
+.photo {
   width: 300px;
   height: 300px;
-  padding: 2px; 
+  padding: 2px;
   margin-top: 53px;
 }
-.photo3{
+.photo3 {
   width: 300px;
   height: 300px;
-  padding: 2px; 
+  padding: 2px;
   margin-top: 130px;
 }
-.text-paragraph{
+.text-paragraph {
   display: flex;
   flex-direction: column;
   padding: 0 80px;
   text-align: justify;
 }
 
-.text-paragraph h2{
+.text-paragraph h2 {
   text-align: center;
   font-size: 240%;
 }

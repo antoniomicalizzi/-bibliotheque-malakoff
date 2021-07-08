@@ -12,6 +12,10 @@
   margin-bottom: 20px;
   padding-left: 10%;
   padding-right: 10%;
+  margin: auto;
+  padding: 5% 30%;
+  text-align: justify;
+  color: rgb(66, 63, 63);
 }
 .paragraph{
   display:flex;

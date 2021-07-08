@@ -1,12 +1,20 @@
-
 .footer {
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-color: red;
-  background-color:  rgb(228, 218, 228);
+  background-color:#b2101d;
 }
-.affiche {
-  width: 120px;
+.logo{
+  margin-right: 10%;
+}
+.logo p{
+ width: 150px;
+ font-size: 15px;
+}
+.logo-ville{
+  width: 150px;
+}
+.espace{
+  margin-left: 35%;
 }

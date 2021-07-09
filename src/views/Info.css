@@ -11,6 +11,7 @@ ul li{
 .info-txt{
   width: 50%;
   margin: auto;
+  color: rgb(66, 63, 63);
 }
 .map{
   padding: 30px;

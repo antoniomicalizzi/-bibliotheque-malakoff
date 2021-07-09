@@ -30,7 +30,7 @@ body {
 .blog {
   position: relative;
   height: 20px;
-  background-color: rgb(173, 179, 179);
+  background-color: white;
   width: 15%;
   padding: 5%;
   border: solid 5px white;
@@ -42,7 +42,7 @@ body {
 
 .blog a{
   text-decoration: none;
-  color: white;
+  color: rgb(66, 63, 63);
   font-weight: bold;
   text-align: center;
 }

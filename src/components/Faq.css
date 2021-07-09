@@ -1,12 +1,17 @@
  .question{
-  background-color: chocolate;
+  background-color: #b2101d;
   width: 47%;
   margin: auto;
   padding: 20px;
+} 
+.Collapsible{
+  width: 47%;
+  margin: auto;
 }
 
-.question p{
-  background-color: chocolate;
-  box-sizing: content-box;
+.Collapsible__trigger{
+  color:black;
+  font-weight: bolder;
   width: 47%;
-} 
+  margin: auto;
+}

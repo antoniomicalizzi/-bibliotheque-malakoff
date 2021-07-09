@@ -1,5 +1,5 @@
  .question{
-  background-color: #b2101d;
+  border: solid 2px;
   width: 47%;
   margin: auto;
   padding: 20px;
@@ -8,9 +8,7 @@
   width: 47%;
   margin: auto;
 }
-
 .Collapsible__trigger{
-  color:black;
   font-weight: bolder;
   width: 47%;
   margin: auto;

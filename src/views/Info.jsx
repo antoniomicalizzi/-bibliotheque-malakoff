@@ -27,8 +27,16 @@ function Info() {
         <p>
           {' '}
           Se rendre à l’Espace Lecture en transport en commun avec le C3 et bus
-          ligne 5 (lien du site de la TAN){' '}
+          ligne 5{' '}
         </p>
+        <div>
+          <a href="https://www.tan.fr/" target="_blank" rel="noreferrer">
+            <img
+              className='logo-tan'
+              src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Logo_Semitan.svg/640px-Logo_Semitan.svg.png"
+              alt="tan"
+          /></a>
+        </div>
       </div>
       <div div className='map'>
         <iframe
@@ -41,6 +49,7 @@ function Info() {
         ></iframe>
         </div>
       <div className='faq'>
+      <h1>FAQ</h1>
       <Faq />
       </div>
     </div>

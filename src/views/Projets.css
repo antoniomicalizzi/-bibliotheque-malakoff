@@ -1,0 +1,10 @@
+.PagesToCome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 77px);
+  gap: 70px;
+  text-align: center;
+  font-size: 60px;
+}

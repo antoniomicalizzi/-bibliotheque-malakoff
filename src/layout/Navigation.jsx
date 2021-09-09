@@ -6,21 +6,20 @@ function Navigation() {
     <div>
       <nav>
         <ul className="navigation">
-        <img className="logo" src={logo} alt="logo" />
           <li>
-            <Link className="link" to='/'>Homepage</Link>
+            <Link className="link" to='/'>ACCUEIL</Link>
           </li>
           <li>
-            <Link className="link" to='/association'>Qui sommes-nous</Link>
+            <Link className="link" to='/association'>QUI SOMMES-NOUS ?</Link>
           </li>
           <li>
-            <Link className="link" to='/info'>Info pratiques</Link>
+            <Link className="link" to='/info'>INFOS PRATIQUES</Link>
           </li>
           <li>
-            <Link className="link" to='/projets'>Archives</Link>
+            <Link className="link" to='/projets'>ARCHIVES</Link>
           </li>
           <li>
-            <Link className="link" to='/vieasso'>Vie associative</Link>
+            <Link className="link" to='/vieasso'>VIE ASSOCIATIVE</Link>
           </li>
         </ul>
       </nav>

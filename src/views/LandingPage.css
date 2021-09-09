@@ -5,17 +5,23 @@ body {
   width: 100vw;
 }
 .fond {
-  background-image: linear-gradient(rgba(181, 112, 112, 0.6), rgba(112, 122, 181, 0.6)), url(../assets/fond.JPG);
+  background-image: url(../assets/homepage_site.png);
   background-attachment: fixed;
   background-position: center;
-  
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .edito {
   background-color: white;
   margin: auto;
+  margin-top: 0;
   padding: 5% 30%;
   text-align: justify;
   color: rgb(66, 63, 63);
+  padding-bottom: 20%;
 }
 .citation{
   font-style: italic;

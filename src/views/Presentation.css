@@ -8,13 +8,19 @@
   margin: 130px auto;
 }
 .fondasso {
-  background-image: url(../assets/fondasso-min.png);
+  background-image: url(../assets/asso_site.png);
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .container {
   background-color: white;
   text-align: justify;
+  padding-bottom: 20%;
 }
 .paragraph {
   display: flex;
@@ -25,6 +31,7 @@
 .text p {
   margin-left: 20%;
   margin-right: 20%;
+  
 }
 .photo {
   width: 300px;

@@ -13,7 +13,7 @@ function NavigationBox() {
           </li>
           <li>
             <Link className='link-box' to='/info'>
-              Info pratiques
+              Infos pratiques
             </Link>
           </li>
           <li>

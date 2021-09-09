@@ -5,9 +5,9 @@ import Faq from '../components/Faq';
 
 function Info() {
   return (
-    <div className='fond'>
+    <div className='fondinfo'>
       <Navigation />
-      <h1 className='main-title'>Info</h1>
+      <h1 className='main-title'>Infos</h1>
       <div className='noustrouver'>
         <div className='info-txt'>
         <h3> Heures d’ouverture au public en accès libre </h3>

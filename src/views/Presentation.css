@@ -7,10 +7,14 @@
   padding: 50px;
   margin: 130px auto;
 }
+.fondasso {
+  background-image: url(../assets/fondasso-min.png);
+  background-attachment: fixed;
+  background-position: center;
+}
 .container {
   background-color: white;
   text-align: justify;
-  color: rgb(66, 63, 63);
 }
 .paragraph {
   display: flex;

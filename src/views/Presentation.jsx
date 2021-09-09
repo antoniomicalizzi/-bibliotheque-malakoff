@@ -1,16 +1,18 @@
 import Footer from '../layout/Footer';
 import Navigation from '../layout/Navigation';
 import './Presentation.css';
-import image from '../assets/img-test.png'
+import image1 from '../assets/image1asso.png';
+import image2 from '../assets/image2asso.png';
+import image3 from '../assets/image3asso.png';
 
 function Presentation() {
   return (
-    <div className='fond'>
+    <div className='fondasso'>
       <Navigation />
       <h1 className="main-title">L'association</h1>
     <div className='container'>
       <div className='paragraph'>
-        <img className='photo1'src={image} alt='test' />
+        <img className='photo1'src={image1} alt='test' />
         <div className='text-paragraph'>
         <h2>Historique</h2>
           <p>
@@ -56,11 +58,11 @@ function Presentation() {
         </p>
       </div>
 
-      <img className='photo'src={image} alt='test' />
+      <img className='photo'src={image2} alt='test' />
       
       </div>
       <div className='paragraph'>
-      <img className='photo3'src={image} alt='test' />
+      <img className='photo3'src={image3} alt='test' />
         <div className='text-paragraph'>
           <h2>Les partenariats</h2>
         <p>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import  logo from "../assets/logoEL.jpg"
+import  logo from "../assets/logoEL-ConvertImage.png"
 function Navigation() {
   return (
     <div>

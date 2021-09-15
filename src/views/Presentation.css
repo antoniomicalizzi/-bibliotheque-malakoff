@@ -27,10 +27,12 @@
   flex-direction: row;
   width: 65%;
   margin: auto;
+  line-height: 1.5;
 }
 .text p {
   margin-left: 20%;
   margin-right: 20%;
+  
   
 }
 .photo {

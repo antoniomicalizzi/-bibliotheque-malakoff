@@ -23,6 +23,7 @@ ul li{
   width: 50%;
   margin: auto;
   color: rgb(66, 63, 63);
+  line-height: 1.5;
 }
 .map{
   padding: 30px;

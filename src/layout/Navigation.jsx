@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import  logo from "../assets/logoEL-ConvertImage.png"
+
 function Navigation() {
   return (
     <div>
@@ -16,10 +16,7 @@ function Navigation() {
             <Link className="link" to='/info'>INFOS PRATIQUES</Link>
           </li>
           <li>
-            <Link className="link" to='/projets'>ARCHIVES</Link>
-          </li>
-          <li>
-            <Link className="link" to='/vieasso'>VIE ASSOCIATIVE</Link>
+            <Link className="link" to='/archives'>ARCHIVES</Link>
           </li>
         </ul>
       </nav>

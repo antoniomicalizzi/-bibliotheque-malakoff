@@ -4,8 +4,10 @@ import LandingPage from './views/LandingPage';
 import Presentation from './views/Presentation';
 import Projets from './views/Projets';
 import Info from './views/Info';
-import VieAsso from './views/VieAsso';
+import Archives from './views/Archives';
+import Catalogue from './views/Catalogue';
 import './App.css';
+
 
 function App() {
   return (
@@ -25,8 +27,11 @@ function App() {
             <Route exact path='/info'>
               <Info />
             </Route>
-            <Route exact path='/vieasso'>
-              <VieAsso />
+            <Route exact path='/archives'>
+              <Archives />
+            </Route>
+            <Route exact path='/catalogue'>
+              <Catalogue />
             </Route>
           </Switch>
         </div>

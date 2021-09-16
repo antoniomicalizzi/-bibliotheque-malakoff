@@ -17,7 +17,7 @@ body {
 .edito {
   background-color: white;
   margin: auto;
-  margin-top: 0;
+  margin-top: -140px;
   padding: 5% 30%;
   text-align: justify;
   color: rgb(66, 63, 63);
@@ -26,4 +26,7 @@ body {
 }
 .citation{
   font-style: italic;
+}
+.signature{
+  text-align:end;
 }

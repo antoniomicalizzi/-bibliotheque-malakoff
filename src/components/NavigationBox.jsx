@@ -8,22 +8,22 @@ function NavigationBox() {
         <ul className='navigation-box'>
           <li>
             <Link className='link-box' to='/association'>
-              Qui sommes-nous
+              QUI SOMMES-NOUS
             </Link>
           </li>
           <li>
             <Link className='link-box' to='/info'>
-              Infos pratiques
+              INFOS PRATIQUES
             </Link>
           </li>
           <li>
-            <Link className='link-box' to='/projets'>
-              Archives
+            <Link className='link-box' to='/archives'>
+              ARCHIVES
             </Link>
           </li>
           <li>
-            <Link className='link-box' to='/projets'>
-              Catalogue
+            <Link className='link-box' to='/catalogue'>
+              CATALOGUE
             </Link>
           </li>
         </ul>

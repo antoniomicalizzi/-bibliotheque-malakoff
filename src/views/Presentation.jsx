@@ -44,7 +44,7 @@ function Presentation() {
           </div>
       </div>
       <div className='paragraph'>
-      
+      <img className='photo'src={image2} alt='test' />
       <div className='text-paragraph'>
       <h2>L'équipe</h2>
         <p>
@@ -58,7 +58,7 @@ function Presentation() {
         </p>
       </div>
 
-      <img className='photo'src={image2} alt='test' />
+      
       
       </div>
       <div className='paragraph'>

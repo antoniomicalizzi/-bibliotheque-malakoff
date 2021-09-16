@@ -10,20 +10,20 @@ function Info() {
       <h1 className='main-title'>Infos</h1>
       <div className='noustrouver'>
         <div className='info-txt'>
-        <h3> Heures d’ouverture au public en accès libre </h3>
+        <h2> Heures d’ouverture au public en accès libre </h2>
         <ul>
           <li> Mardi 12h-13h et 16h-18h</li>
           <li>Mercredi 14h-18h30</li>
           <li> Jeudi et Vendredi 16h-18h</li>
           <li>Samedi 10h-12h</li>
         </ul>
-        <h3>Entrée libre</h3>
+        <h2>Entrée libre</h2>
         <p>
           {' '}
           Toute lecture ou consultation sur place est libre et gratuite, sans
           limitation de durée, aussi souvent que vous le souhaitez.
         </p>
-        <h3> Transports</h3>
+        <h2> Transports</h2>
         <p>
           {' '}
           Se rendre à l’Espace Lecture en transport en commun avec le C3 et bus
@@ -49,7 +49,7 @@ function Info() {
         ></iframe>
         </div>
       <div className='faq'>
-      <h1>FAQ</h1>
+      <h2>FAQ</h2>
       <Faq />
       </div>
     </div>

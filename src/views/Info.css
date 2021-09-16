@@ -24,6 +24,7 @@ ul li{
   margin: auto;
   color: rgb(66, 63, 63);
   line-height: 1.5;
+  padding-top: 70px;
 }
 .map{
   padding: 30px;

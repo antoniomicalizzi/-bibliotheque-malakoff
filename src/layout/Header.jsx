@@ -1,5 +1,5 @@
 import "./Header.css"
-import  logo from "../assets/logoEL.png"
+import  logo from "../assets/logoEL-ConvertImage.png"
 
 
 function Header() {

@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color:#b2101d;
+  color:white;
 }
 .logo{
   margin-right: 10%;
@@ -16,5 +17,5 @@
   width: 150px;
 }
 .espace{
-  margin-left: 35%;
+  margin-left: 40%;
 }

@@ -4,11 +4,12 @@ import './Archives.css';
 
 function Archives() {
   return (
-    <>
-    <Navigation />
-    <div>
-      <h1>test</h1>
-    </div><Footer /></>
+    <div className="fondarchive">
+      <Navigation />
+      <h1 className='main-title'>Archives</h1>
+      <Footer />
+    </div>
+  
 
   );
 }

@@ -17,3 +17,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.carousel{
+  background-color: white;
+}
+.img-carousel {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background-size: cover;
+}

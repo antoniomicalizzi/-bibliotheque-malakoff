@@ -1,5 +1,7 @@
 import Footer from '../layout/Footer';
 import Navigation from '../layout/Navigation';
+
+
 import './Archives.css';
 
 function Archives() {
@@ -7,6 +9,7 @@ function Archives() {
     <div className="fondarchive">
       <Navigation />
       <h1 className='main-title'>Archives</h1>
+
       <Footer />
     </div>
   

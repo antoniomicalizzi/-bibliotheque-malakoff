@@ -12,8 +12,8 @@ import image5 from '../assets/selezione5.png'
 
 function Carousel() {
   return (
-    <div className="Carousel" mode="gallery">
-    <CarouselWrapper items={1}>
+<div className="carousel" mode="gallery">
+<CarouselWrapper items={1}>
       <div>
    <img className="img-carousel" src={image1} alt={"image1"} />
    <p>test</p>
@@ -24,7 +24,7 @@ function Carousel() {
    <img className="img-carousel" src={image5} alt={"image5"} />
 </CarouselWrapper>
 
-    </div>
+ </div>
   )
 }
 

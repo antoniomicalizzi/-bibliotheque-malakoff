@@ -6,6 +6,8 @@ import Projets from './views/Projets';
 import Info from './views/Info';
 import Archives from './views/Archives';
 import Catalogue from './views/Catalogue';
+
+
 import './App.css';
 
 

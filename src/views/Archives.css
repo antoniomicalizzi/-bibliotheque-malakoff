@@ -1,6 +1,9 @@
+@import "react-slideshow-image/dist/styles.css";
+
 html {
   height: 100%;
 }
+
 body {
   min-height: 100%;
   margin: 0;
@@ -17,12 +20,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.carousel{
+.containerSlide {
+  
+  margin: auto;
+  padding-top: 200px;
   background-color: white;
 }
-.img-carousel {
-  height: 250px;
-  width: 250px;
-  border-radius: 10px;
-  background-size: cover;
+
+.containerSlide img {
+  height: 500px;
 }

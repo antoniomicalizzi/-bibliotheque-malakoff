@@ -16,7 +16,7 @@ const proprietes = {
 function VieAssociative() {
   return (
       < div className="containerSlide">
-        <h1> Animation culturelle </h1>
+        <h1> Vie associative </h1>
         <Slide {...proprietes}>
         <div className="each-slide">
             <div>

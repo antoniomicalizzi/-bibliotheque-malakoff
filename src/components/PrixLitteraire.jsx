@@ -17,7 +17,7 @@ const proprietes = {
 function PrixLitteraire() {
   return (
       < div className="containerSlide">
-        <h1> Animation culturelle </h1>
+        <h1> Prix Littéraires </h1>
         <Slide {...proprietes}>
         <div className="each-slide">
             <div>

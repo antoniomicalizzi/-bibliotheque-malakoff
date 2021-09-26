@@ -40,7 +40,7 @@ const proprietes = {
 function AnimationCulturelles() {
   return (
       < div className="containerSlide">
-        <h1> Animation culturelle </h1>
+        <h1> Animations culturelles </h1>
         <Slide {...proprietes}>
         <div className="each-slide">
             <div>

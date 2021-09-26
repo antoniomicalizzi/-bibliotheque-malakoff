@@ -1,7 +1,6 @@
 body {
   box-sizing: border-box;
   font-family: sans-serif;
-
 }
 .navigation-box {
   width: 85%;
@@ -42,15 +41,14 @@ body {
   top: -351px;
   left: 39%;
   padding-bottom: 25%;
-  padding-top: 2%;
+  padding-top: 4%;
   padding-bottom: 6%;
 }
 .blog a{
-  font-family: 'Amatic SC';
   text-decoration: none;
   color:white;
   font-weight: bolder;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   padding-bottom: 25%;
 }

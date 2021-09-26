@@ -33,7 +33,7 @@ function LandingPage() {
             <p className="signature">Juin 2021,
             Catherine BAILHACHE
             Présidente de l’Espace Lecture,
-            Bibliothèque associative nantaise
+            <br/>Bibliothèque associative nantaise
             </p>
           </div>
           <Footer />

@@ -30,3 +30,11 @@ body {
 .containerSlide img {
   height: 500px;
 }
+
+.containerSlide p {
+  margin: auto;
+  padding: 5% 30%;
+  text-align: center;
+  color: rgb(66, 63, 63);
+  line-height: 1.5;
+}

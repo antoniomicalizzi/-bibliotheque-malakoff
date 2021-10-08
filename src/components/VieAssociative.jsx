@@ -21,7 +21,7 @@ function VieAssociative() {
         <div className="each-slide">
             <div>
               <img src={img1} alt="img1" />
-              <p>Débord de Loire est une invitation à explorer toutes les facettes du fleuve. Un programme de découvertes – visites, portes ouvertes, ateliers, expositions – est proposé tout au long de l’événement, partout dans l’estuaire. Cette manifestation se déroule tous les deux ans. En 2019, le quartier Malakoff a participé lui aussi à cette belle fête. Les acteurs du quartier ont proposé diverses animations (parcours photos, balades sur l'eau, ateliers peinture, plage éphémère, espace jeux, bal...). L'Espace Lecture s'est associé à ce temps fort en proposant en partenariat avec les «Éthern'elles » une lecture déambulatoire sur le thème de l'eau et du fleuve.</p>
+              <p>Débord de Loire est une invitation à explorer toutes les facettes du fleuve.<br/> Un programme de découvertes – visites, portes ouvertes, ateliers, expositions – est proposé tout au long de l’événement, partout dans l’estuaire.<br/>  Cette manifestation se déroule tous les deux ans.<br/>  En 2019, le quartier Malakoff a participé lui aussi à cette belle fête.<br/>  Les acteurs du quartier ont proposé diverses animations (parcours photos, balades sur l'eau, ateliers peinture, plage éphémère, espace jeux, bal...).<br/> L'Espace Lecture s'est associé à ce temps fort en proposant en partenariat avec les «Éthern'elles » une lecture déambulatoire sur le thème de l'eau et du fleuve.</p>
             </div>
           </div>
           <div className="each-slide">
@@ -39,7 +39,7 @@ function VieAssociative() {
           <div className="each-slide">
             <div>
               <img src={img4} alt="img4" />
-              <p>Le Forum Associatif représente un temps fort des associations du quartier Saint Donatien / Malakoff / Dalby. Une cinquantaine d'associations (sportives, culturelles...) sont présentes chaque année. Vitrine de la dynamique associative, ce temps d’information auprès des habitants pour les activités de rentrée est un moment de partage et de convivialité.</p>
+              <p>Le Forum Associatif représente un temps fort des associations du quartier Saint Donatien / Malakoff / Dalby.<br/> Une cinquantaine d'associations (sportives, culturelles...) sont présentes chaque année.<br/> Vitrine de la dynamique associative, ce temps d’information auprès des habitants pour les activités de rentrée est un moment de partage et de convivialité.</p>
             </div>
           </div>
         </Slide>

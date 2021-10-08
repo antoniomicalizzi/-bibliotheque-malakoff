@@ -27,11 +27,6 @@ function NavigationBox() {
             </Link>
           </li>
         </ul>
-        <div className='blog'>
-          <a href='https://espacelecture.fr/' target='_blank' rel='noreferrer'>
-            BLOG
-          </a>
-        </div>
       </nav>
     </div>
   );

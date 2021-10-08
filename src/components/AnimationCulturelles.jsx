@@ -1,6 +1,5 @@
 import { Slide } from 'react-slideshow-image' 
 import img1 from '../assets/ac-img1.png'
-import img2 from '../assets/ac-img2.png'
 import img3 from '../assets/ac-img3.png'
 import img4 from '../assets/ac-img4.png'
 import img5 from '../assets/ac-img5.png'
@@ -45,93 +44,87 @@ function AnimationCulturelles() {
         <div className="each-slide">
             <div>
               <img src={img1} alt="img1" />
-              <p>Accueil des écoles maternelles et élémentaires du quartier. <br/> Ce temps d’accueil s’articule autour d’un temps de lecture et d’un temps libre de découverte des livres de la bibliothèque</p>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div>
-              <img src={img2} alt="img2" />
-              <p>Accueil P’tits Loups. <br/> L’Espace lecture accueille une fois par mois, en partenariat avec la Bibliothèque Municipale de Nantes, les enfants de 0-3 ans pour une action de sensibilisation aux livres et à la bibliothèque</p>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div>
-              <img src={img3} alt="img3" />
-              <p>Croq’Minots Animations de contes et comptines pour tout-petits qui allient la musique et la lecture, en partenariat avec la ludothèque de l’ACCOORD. <br/> La plupart des enfants présents sont des enfants qui viennent avec une assistante maternelle ou avec le Multi-accueil de Malakoff, mais aussi parfois accompagnés d'un parent ou grand-parent</p>
+              <p><strong>Accueil des écoles maternelles et élémentaires du quartier.</strong> <br/> Ce temps d’accueil s’articule autour d’un temps de lecture et d’un temps libre de découverte des livres de la bibliothèque.</p>
             </div>
           </div>
           <div className="each-slide">
             <div>
               <img src={img4} alt="img4" />
-              <p>Lectures à la PMI (Protection Maternelle et Infantile).<br/> Depuis 2016, l'Espace Lecture anime des séances de lecture et de sensibilisation aux livres au sein de la salle d'attente de la PMI de Malakoff.<br/> Ces lectures ont lieu une fois par mois, les jours de consultation du médecin</p>
+              <p><strong>Accueil P’tits Loups.</strong> <br/> L’Espace lecture accueille une fois par mois, en partenariat avec la Bibliothèque Municipale de Nantes, les enfants de 0-3 ans pour une action de sensibilisation aux livres et à la bibliothèque.</p>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div>
+              <img src={img3} alt="img3" />
+              <p>Animations de contes et comptines pour tout-petits (<strong>Croq’Minots</strong>) qui allient la musique et la lecture, en partenariat avec la ludothèque de l’ACCOORD. <br/> La plupart des enfants présents sont des enfants qui viennent avec une assistante maternelle ou avec le Multi-accueil de Malakoff, mais aussi parfois accompagnés d'un parent ou grand-parent.</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img5} alt="img5" />
-              <p>Lecture avec le Multi-Accueil.<br/> Depuis 2001, l’Espace Lecture anime des lectures au Multi-accueil de Malakoff auprès d’enfants tout-petits et jusqu’à 3 ans</p>
+              <p><strong>Lecture avec le Multi-Accueil.</strong><br/> Depuis 2001, l’Espace Lecture anime des lectures au Multi-accueil de Malakoff auprès d’enfants tout-petits et jusqu’à 3 ans.</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img6} alt="img6" />
-              <p>Ateliers vacances.<br/> A chaque vacances scolaires, la bibliothèque propose tous les mardis et jeudis des animations pour les enfants et, plus largement , pour les familles. <br/>Ces animations, toujours en lien avec le livre, se déclinent en 3 catégories:
-ateliers créatifs, sorties culturelles et ateliers animés par des intervenants professionnels
+              <p><strong>Ateliers vacances.</strong><br/> A chaque vacances scolaires, la bibliothèque propose tous les mardis et jeudis des animations pour les enfants et, plus largement , pour les familles. <br/>Ces animations, toujours en lien avec le livre, se déclinent en 3 catégories:
+ateliers créatifs, sorties culturelles et ateliers animés par des intervenants professionnels.
 </p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img7} alt="img7" />
-              <p>Ateliers vacances</p>
+              <p><strong>Ateliers vacances</strong></p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img8} alt="img8" />
-              <p>Ateliers vacances</p>
+              <p><strong>Ateliers vacances</strong></p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img9} alt="img9" />
-              <p>Ateliers vacances</p>
+              <p><strong>Ateliers vacances</strong></p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img10} alt="img10" />
-              <p>Le Festival Atlantide est une manifestation culturelle de la Ville de Nantes qui réunit chaque année durant quatre jours des auteurs nationaux et internationaux, qui viennent à Nantes partager leurs points de vue littéraires sur les grands enjeux contemporains dans des conférences, des rencontres, des lectures.<br/> Cette année, Espace Lecture a accueilli deux auteurs : Ousmane Diarra et Sophie Adriansen, autours des œuvres La route des clameurs (Gallimard, 2014) et Papa est en bas (Nathan, 2018)</p>
+              <p>Le <strong>Festival Atlantide</strong> est une manifestation culturelle de la Ville de Nantes qui réunit chaque année durant quatre jours des auteurs nationaux et internationaux, qui viennent à Nantes partager leurs points de vue littéraires sur les grands enjeux contemporains dans des conférences, des rencontres, des lectures.<br/> Cette année, Espace Lecture a accueilli deux auteurs : Ousmane Diarra et Sophie Adriansen, autours des œuvres La route des clameurs (Gallimard, 2014) et Papa est en bas (Nathan, 2018).</p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img11} alt="img11" />
-              <p>Ousmane Diarra</p>
+              <p><strong>Ousmane Diarra</strong></p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img12} alt="img12" />
-              <p>Bibliothèque de rue.<br/> Le principe de la bibliothèque de rue est simple: des lecteurs bénévoles s’installent en extérieur sur des couvertures avec des caisses de livres et lisent aux enfants qui viennent lire et écouter des histoires.<br/> La bibliothèque de rue permet de découvrir, dans un cadre moins attendu, le plaisir des livres et de la lecture.<br/>Depuis 1999, chaque mercredi de 15h30 à 16h30 l'Espace Lecture invite les enfants et parents à s'installer sur l’aire de jeux rue de Chypre à Malakoff. </p>
+              <p><strong>Bibliothèque de rue.</strong><br/> Le principe de la bibliothèque de rue est simple: des lecteurs bénévoles s’installent en extérieur sur des couvertures avec des caisses de livres et lisent aux enfants qui viennent lire et écouter des histoires.<br/> La bibliothèque de rue permet de découvrir, dans un cadre moins attendu, le plaisir des livres et de la lecture.<br/>Depuis 1999, chaque mercredi de 15h30 à 16h30 l'Espace Lecture invite les enfants et parents à s'installer sur l’aire de jeux rue de Chypre à Malakoff. </p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img13} alt="img13" />
-              <p>Bourse aux livres solidaire.<br/> Suite à l'incendie de la bibliothèque en juillet 2018, l'Espace Lecture a organisé une bourse aux livres solidaire en partenariat avec les magasins Cultura.<br/>Installée sur le parvis de la rue d'Irlande, dans le quartier Malakoff, la bourse aux livres a attiré de nombreux visiteurs qui ont pu trouver des romans, polars, documentaires , BD, albums jeunesse... il y en avait pour tous les goûts ! <br/>Des ateliers créatifs gratuits ont même été proposés tout l'après-midi par des animateurs des magasins Cultura.</p>
+              <p><strong>Bourse aux livres solidaire</strong>.<br/> Suite à l'incendie de la bibliothèque en juillet 2018, l'Espace Lecture a organisé une bourse aux livres solidaire en partenariat avec les magasins Cultura.<br/>Installée sur le parvis de la rue d'Irlande, dans le quartier Malakoff, la bourse aux livres a attiré de nombreux visiteurs qui ont pu trouver des romans, polars, documentaires , BD, albums jeunesse... il y en avait pour tous les goûts ! <br/>Des ateliers créatifs gratuits ont même été proposés tout l'après-midi par des animateurs des magasins Cultura.</p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img14} alt="img14" />
-              <p>Bourse aux livres solidaire</p>
+              <p><strong>Bourse aux livres solidaire</strong></p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img15} alt="img15" />
-              <p>Le projet “Nous sommes livres” est né en 2014 d’une rencontre entre les éditions MeMo et la bibliothèque Espace Lecture.<br/> Replacer le livre au cœur des familles dès la petite enfance est l’idée forte du projet “nous sommes livres”, afin de sensibiliser à la lecture dès le plus jeune âge.</p>
+              <p>Le projet <strong>Nous sommes livres</strong> est né en 2014 d’une rencontre entre les éditions MeMo et la bibliothèque Espace Lecture.<br/> Replacer le livre au cœur des familles dès la petite enfance est l’idée forte du projet “nous sommes livres”, afin de sensibiliser à la lecture dès le plus jeune âge.</p>
             </div>
           </div>
           <div div className="each-slide">
@@ -149,19 +142,19 @@ ateliers créatifs, sorties culturelles et ateliers animés par des intervenants
           <div div className="each-slide">
             <div>
               <img src={img18} alt="img18" />
-              <p>Invitation des autrices/illustratrices: Anne Bertier en 2016, Junko Nakamura en 2017, Emilie Vast en 2019,Claire Garralon en 2021</p>
+              <p>Invitation des autrices/illustratrices: Anne Bertier en 2016, Junko Nakamura en 2017, Emilie Vast en 2019, Claire Garralon en 2021.</p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img19} alt="img19" />
-              <p>Nous sommes livres</p>
+              <p><strong>Nous sommes livres</strong></p>
             </div>
           </div>
-          <div div className="each-slide">
+          <div div className="each-slide-small">
             <div>
               <img src={img20} alt="img20" />
-              <p>Nous sommes livres</p>
+              <p><strong>Nous sommes livres</strong></p>
             </div>
           </div>
           <div div className="each-slide">
@@ -179,37 +172,37 @@ ateliers créatifs, sorties culturelles et ateliers animés par des intervenants
           <div div className="each-slide">
             <div>
               <img src={img23} alt="img23" />
-              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s Anne Crausaz, 2014 (en partenariat avec le Centre ressource ville)</p>
+              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s <br/>Anne Crausaz, 2014 (en partenariat avec le Centre ressource ville)</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img24} alt="img24" />
-              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s Aude Maurel</p>
+              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s <br/> Aude Maurel</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img25} alt="img25" />
-              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s Charles Dutertre, 2011 et 2019</p>
+              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s <br/> Charles Dutertre, 2011 et 2019</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img26} alt="img26" />
-              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s Malika Doray, 2016</p>
+              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s <br/> Malika Doray, 2016</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img27} alt="img27" />
-              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s Richard Marnier</p>
+              <p>Régulièrement, avec différents partenaires de la vie culturelle nantaise, la bibliothèque accueille des auteur.e.s <br/> Richard Marnier</p>
             </div>
           </div>
           <div div className="each-slide">
             <div>
               <img src={img28} alt="img28" />
-              <p>A travers des lectures de textes, Marie-Jo Coulon et Pascale Pautrat nous parlent, à leur manière et de façon originale, de différents auteurs </p>
+              <p>A travers des lectures de textes, Marie-Jo Coulon et Pascale Pautrat nous parlent, à leur manière et de façon originale, de différents auteurs. </p>
             </div>
           </div>
           

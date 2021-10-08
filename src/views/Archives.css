@@ -21,8 +21,6 @@ body {
   background-size: cover;
 }
 .containerSlide {
-  
-  margin: auto;
   padding-top: 200px;
   background-color: white;
 }
@@ -34,7 +32,13 @@ body {
 .containerSlide p {
   margin: auto;
   padding: 5% 30%;
-  text-align: center;
+  text-align: justify;
   color: rgb(66, 63, 63);
   line-height: 1.5;
+}
+.each-slide-small p {
+  text-align: center;
+}
+.carrousel{
+  background-color:white;
 }

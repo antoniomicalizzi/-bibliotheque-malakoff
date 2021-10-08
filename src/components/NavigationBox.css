@@ -29,26 +29,3 @@ body {
   text-align: center;
 }
 
-.blog {
-  background-color: #b2101d;
-  color: white;
-  position: relative;
-  height: 11px;
-  width: 12%;
-  padding: 5%;
-  border: solid 5px white;
-  z-index: 1;
-  top: -351px;
-  left: 39%;
-  padding-bottom: 25%;
-  padding-top: 4%;
-  padding-bottom: 6%;
-}
-.blog a{
-  text-decoration: none;
-  color:white;
-  font-weight: bolder;
-  text-align: center;
-  font-size: x-large;
-  padding-bottom: 25%;
-}

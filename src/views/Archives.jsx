@@ -11,9 +11,11 @@ function Archives() {
     <><><div className="fondarchive">
       <Navigation />
       <h1 className='main-title'>Archives</h1>
+      <div className="carrousel">
       <VieAssociative />
       <PrixLitteraire />
       <AnimationCulturelles />
+      </div>
     </div>
     </><Footer /></>
   

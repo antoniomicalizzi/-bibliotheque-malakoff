@@ -6,16 +6,19 @@ function Header() {
   return (
     <>
     <div className="header">
-        <img className="logo1" src={logo} alt="logo" />
-      <div className="titre1">
-        <h2>BIBLIOTHEQUE ASSOCIATIVE ESPACE LECTURE</h2>
-      </div>
-      <div className='blog'>
-     <a href='https://espacelecture.fr/' target='_blank' rel='noreferrer'>
-       Blog
-     </a>
-   </div>
-  </div>
+        
+         <img className="logo1" src={logo} alt="logo" />
+      
+         <h2 className="titre1">BIBLIOTHEQUE ASSOCIATIVE ESPACE LECTURE</h2>
+       
+         <a className='blog' href='https://espacelecture.fr/' target='_blank' rel='noreferrer'>
+        Blog
+      </a>
+    
+    
+     
+   
+    </div>
    
    </>
   )
